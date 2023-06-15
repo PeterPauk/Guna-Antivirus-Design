@@ -61,5 +61,15 @@ namespace GunaUiAntivirus
         {
 
         }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
