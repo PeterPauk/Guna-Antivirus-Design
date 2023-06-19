@@ -17,17 +17,12 @@ namespace GunaUiAntivirus
             InitializeComponent();
         }
 
-        void fadeIn(object sender, EventArgs e)
-        {
-            if (Opacity >= 1)
-                timer1.Stop();
-            else
-                Opacity += 0.05;
-        }
+        
 
         int startPoint = 0;
         int startPoint1 = 0;
         int startPoint2 = 0;
+        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -69,11 +64,11 @@ namespace GunaUiAntivirus
                                 label9.Visible = true;
                                 gunaGradientTileButton1.Visible = true;
                             }
+            
                         }
                     }
                 }
             }
-           
         }
 
         private void Control_Load(object sender, EventArgs e)
@@ -86,5 +81,14 @@ namespace GunaUiAntivirus
 
         }
 
+        private void gunaPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void gunaGradientTileButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,12 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Control));
             this.gunaCircleProgressBar1 = new Guna.UI.WinForms.GunaCircleProgressBar();
+            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.gunaCircleProgressBar2 = new Guna.UI.WinForms.GunaCircleProgressBar();
@@ -53,8 +53,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.gunaGradientTileButton1 = new Guna.UI.WinForms.GunaGradientTileButton();
             this.gunaCircleProgressBar1.SuspendLayout();
-            this.gunaPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
+            this.gunaPanel1.SuspendLayout();
             this.gunaCircleProgressBar2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).BeginInit();
             this.gunaCircleProgressBar3.SuspendLayout();
@@ -79,6 +79,17 @@
             this.gunaCircleProgressBar1.Size = new System.Drawing.Size(208, 197);
             this.gunaCircleProgressBar1.TabIndex = 0;
             this.gunaCircleProgressBar1.Click += new System.EventHandler(this.gunaCircleProgressBar1_Click);
+            // 
+            // gunaPictureBox1
+            // 
+            this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
+            this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.Location = new System.Drawing.Point(59, 61);
+            this.gunaPictureBox1.Name = "gunaPictureBox1";
+            this.gunaPictureBox1.Size = new System.Drawing.Size(91, 75);
+            this.gunaPictureBox1.TabIndex = 4;
+            this.gunaPictureBox1.TabStop = false;
             // 
             // timer1
             // 
@@ -114,6 +125,7 @@
             this.gunaPanel1.Name = "gunaPanel1";
             this.gunaPanel1.Size = new System.Drawing.Size(1309, 140);
             this.gunaPanel1.TabIndex = 3;
+            this.gunaPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaPanel1_Paint);
             // 
             // gunaLabel1
             // 
@@ -127,17 +139,6 @@
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "Vo vašom počítačí sme našli nasledovné problémy s výkonom";
             this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // gunaPictureBox1
-            // 
-            this.gunaPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.BackgroundImage")));
-            this.gunaPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaPictureBox1.Location = new System.Drawing.Point(59, 61);
-            this.gunaPictureBox1.Name = "gunaPictureBox1";
-            this.gunaPictureBox1.Size = new System.Drawing.Size(91, 75);
-            this.gunaPictureBox1.TabIndex = 4;
-            this.gunaPictureBox1.TabStop = false;
             // 
             // gunaLabel2
             // 
@@ -332,7 +333,7 @@
             this.gunaGradientTileButton1.ForeColor = System.Drawing.Color.White;
             this.gunaGradientTileButton1.Image = null;
             this.gunaGradientTileButton1.ImageSize = new System.Drawing.Size(52, 52);
-            this.gunaGradientTileButton1.Location = new System.Drawing.Point(1006, 540);
+            this.gunaGradientTileButton1.Location = new System.Drawing.Point(1006, 563);
             this.gunaGradientTileButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaGradientTileButton1.Name = "gunaGradientTileButton1";
             this.gunaGradientTileButton1.OnHoverBaseColor1 = System.Drawing.Color.Orange;
@@ -346,13 +347,14 @@
             this.gunaGradientTileButton1.TabIndex = 16;
             this.gunaGradientTileButton1.Text = "VYRIEŠIŤ";
             this.gunaGradientTileButton1.Visible = false;
+            this.gunaGradientTileButton1.Click += new System.EventHandler(this.gunaGradientTileButton1_Click);
             // 
             // Control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1271, 651);
+            this.ClientSize = new System.Drawing.Size(1289, 698);
             this.Controls.Add(this.gunaGradientTileButton1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.gunaLabel4);
@@ -370,13 +372,16 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaCircleProgressBar1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "Control";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Control";
             this.Load += new System.EventHandler(this.Control_Load);
             this.gunaCircleProgressBar1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.gunaPanel1.ResumeLayout(false);
             this.gunaPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.gunaCircleProgressBar2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox2)).EndInit();
             this.gunaCircleProgressBar3.ResumeLayout(false);

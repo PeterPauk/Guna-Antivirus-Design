@@ -204,6 +204,7 @@
             this.gunaButton2.TabIndex = 10;
             this.gunaButton2.Text = "Ochrana";
             this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaPictureBox4
             // 
@@ -348,6 +349,7 @@
             this.gunaGradientTileButton2.Size = new System.Drawing.Size(244, 50);
             this.gunaGradientTileButton2.TabIndex = 7;
             this.gunaGradientTileButton2.Text = "SPUSTIŤ TEST";
+            this.gunaGradientTileButton2.Click += new System.EventHandler(this.gunaGradientTileButton2_Click);
             // 
             // gunaLabel1
             // 

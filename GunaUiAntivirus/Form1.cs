@@ -78,5 +78,21 @@ namespace GunaUiAntivirus
             cat.Show();
             this.Hide();
         }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+            Ochrana cat = new Ochrana();
+            cat.Show();
+            this.Hide();
+        }
+
+        private void gunaGradientTileButton2_Click(object sender, EventArgs e)
+        {
+            
+            Scanning cat = new Scanning();
+            cat.Show();
+            this.Hide();
+            
+        }
     }
 }
