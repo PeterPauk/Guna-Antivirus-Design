@@ -35,5 +35,47 @@ namespace GunaUiAntivirus
             cat.Show();
             this.Hide();
         }
+
+        private void gunaGradientButton4_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
+        }
+
+        private void gunaGradientTileButton1_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
+        }
+
+        private void gunaGradientButton1_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
+        }
+
+        private void gunaGradientButton2_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
+        }
+
+        private void gunaGradientButton3_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
+        }
+
+        private void gunaGradientButton5_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
+        }
     }
 }
