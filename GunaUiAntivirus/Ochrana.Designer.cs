@@ -364,7 +364,9 @@
             this.gunaGradientButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.gunaGradientButton1.ForeColor = System.Drawing.Color.White;
             this.gunaGradientButton1.Image = null;
-            this.gunaGradientButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaGradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.gunaGradientButton1.ImageOffsetX = 20;
+            this.gunaGradientButton1.ImageSize = new System.Drawing.Size(50, 50);
             this.gunaGradientButton1.Location = new System.Drawing.Point(292, 176);
             this.gunaGradientButton1.Name = "gunaGradientButton1";
             this.gunaGradientButton1.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(41)))), ((int)(((byte)(64)))));
@@ -551,7 +553,7 @@
             this.gunaGradientButton7.Radius = 15;
             this.gunaGradientButton7.Size = new System.Drawing.Size(184, 169);
             this.gunaGradientButton7.TabIndex = 21;
-            this.gunaGradientButton7.Text = "Ochranca e-mailov";
+            this.gunaGradientButton7.Text = "Ochrana e-mailov";
             this.gunaGradientButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaGradientButton8
@@ -599,8 +601,8 @@
             // 
             // Ochrana
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(82)))));
             this.ClientSize = new System.Drawing.Size(1289, 698);
             this.Controls.Add(this.label3);

@@ -299,11 +299,11 @@
             this.gunaGradientTileButton1.BackColor = System.Drawing.Color.Transparent;
             this.gunaGradientTileButton1.BaseColor1 = System.Drawing.Color.ForestGreen;
             this.gunaGradientTileButton1.BaseColor2 = System.Drawing.Color.SeaGreen;
-            this.gunaGradientTileButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientTileButton1.BorderColor = System.Drawing.Color.White;
             this.gunaGradientTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.gunaGradientTileButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientTileButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaGradientTileButton1.Font = new System.Drawing.Font("Segoe UI Light", 13.75F);
+            this.gunaGradientTileButton1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.gunaGradientTileButton1.ForeColor = System.Drawing.Color.White;
             this.gunaGradientTileButton1.Image = null;
             this.gunaGradientTileButton1.ImageSize = new System.Drawing.Size(52, 52);
@@ -328,7 +328,7 @@
             this.gunaGradientTileButton2.BackColor = System.Drawing.Color.Transparent;
             this.gunaGradientTileButton2.BaseColor1 = System.Drawing.Color.ForestGreen;
             this.gunaGradientTileButton2.BaseColor2 = System.Drawing.Color.SeaGreen;
-            this.gunaGradientTileButton2.BorderColor = System.Drawing.Color.Black;
+            this.gunaGradientTileButton2.BorderColor = System.Drawing.Color.White;
             this.gunaGradientTileButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.gunaGradientTileButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaGradientTileButton2.FocusedColor = System.Drawing.Color.Empty;
