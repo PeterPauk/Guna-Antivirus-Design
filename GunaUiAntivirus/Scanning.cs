@@ -37,7 +37,7 @@ namespace GunaUiAntivirus
                 label9.Visible = false;
                 label11.Visible = true;
                 label10.Text = gunaCircleProgressBar2.Value.ToString() + "%";
-                label10.Location = new Point(950, 360);
+                
                 if (gunaCircleProgressBar2.Value == 100)
                 {
                     gunaPictureBox2.Visible = true;

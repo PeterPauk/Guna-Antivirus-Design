@@ -54,7 +54,9 @@ namespace GunaUiAntivirus
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
-
+            Sukromie cat = new Sukromie();
+            cat.Show();
+            this.Hide();
         }
 
         private void gunaPictureBox2_Click(object sender, EventArgs e)
@@ -93,6 +95,13 @@ namespace GunaUiAntivirus
             cat.Show();
             this.Hide();
             
+        }
+
+        private void gunaGradientTileButton1_Click(object sender, EventArgs e)
+        {
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
         }
     }
 }

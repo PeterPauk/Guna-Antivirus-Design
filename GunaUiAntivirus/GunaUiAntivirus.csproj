@@ -74,11 +74,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scam.Designer.cs">
+      <DependentUpon>Scam.cs</DependentUpon>
+    </Compile>
     <Compile Include="Scanning.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Scanning.Designer.cs">
       <DependentUpon>Scanning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sukromie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sukromie.Designer.cs">
+      <DependentUpon>Sukromie.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Control.resx">
       <DependentUpon>Control.cs</DependentUpon>
@@ -98,8 +110,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Scam.resx">
+      <DependentUpon>Scam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Scanning.resx">
       <DependentUpon>Scanning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sukromie.resx">
+      <DependentUpon>Sukromie.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">

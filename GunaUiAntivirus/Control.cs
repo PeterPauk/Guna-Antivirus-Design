@@ -88,7 +88,9 @@ namespace GunaUiAntivirus
 
         private void gunaGradientTileButton1_Click(object sender, EventArgs e)
         {
-
+            Scam cat = new Scam();
+            cat.Show();
+            this.Hide();
         }
     }
 }

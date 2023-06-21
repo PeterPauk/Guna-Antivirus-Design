@@ -39,3 +39,5 @@ C:\Users\ASUS\Desktop\C++ a C#\testt antivir\GunaUiAntivirus\obj\Debug\GunaUiAnt
 C:\Users\ASUS\Desktop\C++ a C#\testt antivir\GunaUiAntivirus\obj\Debug\GunaUiAntivirus.pdb
 C:\Users\ASUS\Desktop\C++ a C#\testt antivir\GunaUiAntivirus\obj\Debug\GunaUiAntivirus.Ochrana.resources
 C:\Users\ASUS\Desktop\C++ a C#\testt antivir\GunaUiAntivirus\obj\Debug\GunaUiAntivirus.Scanning.resources
+C:\Users\ASUS\Desktop\C++ a C#\testt antivir\GunaUiAntivirus\obj\Debug\GunaUiAntivirus.Scam.resources
+C:\Users\ASUS\Desktop\C++ a C#\testt antivir\GunaUiAntivirus\obj\Debug\GunaUiAntivirus.Sukromie.resources
